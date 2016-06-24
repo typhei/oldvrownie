@@ -1,0 +1,3 @@
+<h1><%= @message %></h1>
+<p><%= @page.title %></p>
+<p><%= @page.url %></p>

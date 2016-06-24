@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vrownie</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <header class="navbar">
+	<div id="logo">vrownie</div>
+    </header>
+    
+    <div class="container">
+	<%= yield %>
+    </div>
+    
+    <footer class="footer">
+	<div class="small">
+	    <div id="links">
+		<%= link_to "このサイトについて", "/about", :style=>"color:white;" %>
+	    </div>
+	    <div id="links">
+		<%= link_to "お問い合わせ", "/inquiry", :style=>"color:white;" %>
+	    </div>
+	</div>
+    </footer>
+    
+</body>
+</html>

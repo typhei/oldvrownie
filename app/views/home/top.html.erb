@@ -1,0 +1,32 @@
+<% @page.each do |arr| %>
+    <div class="blockwrapper">
+	<div id="imagewrapper">
+	    <%= image_tag arr.image, :size=>"200x170" %>
+	</div>
+	<div id="bodywrapper">
+	    <h3><%= link_to arr.title, arr.url %></h3>
+	    <span><%= arr.body %></span>
+	</div>
+    </div>
+    <Hr width="700px" color="#cfcfcf">
+<% end %>
+
+<div class="paging">
+    <% if @start <= 3 || @start.nil? then %>
+	<% paging = [1,2,3,4,5] %>
+	<% if @start == 0 then %>
+	    <% @start = 1 %>
+	<% end %>
+    <% else %>
+	<% paging = [@start-2, @start-1, @start, @start+1, @start+2] %>
+    <% end %>
+    <% paging.each do |p| %>
+	<% if p == @start || p.is_a?(String) then %>
+	    <span><%= p.to_s %></span>
+	<% else %>
+	    <%= link_to p.to_s, "/home/top/"+p.to_s %>
+	<% end %>
+    <% end %>
+</div>
+
+
