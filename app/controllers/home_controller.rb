@@ -24,7 +24,6 @@ class HomeController < ApplicationController
   def about
   end
 
-  def category
-    @text="カテゴリ・ジャンルを表示する"
+  def inqury
   end
 end

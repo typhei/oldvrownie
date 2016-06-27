@@ -8,11 +8,12 @@
 </head>
 <body>
     <header class="navbar">
-	<div id="logo">vrownie</div>
+	<div id="logo"><%= link_to "vrownie", "/top", :style =>"text-decoration:none; color:white;"%></div>
     </header>
     
     <div class="container">
 	<%= yield %>
+	<div class="clear"></div>
     </div>
     
     <footer class="footer">
@@ -21,7 +22,7 @@
 		<%= link_to "このサイトについて", "/about", :style=>"color:white;" %>
 	    </div>
 	    <div id="links">
-		<%= link_to "お問い合わせ", "/inquiry", :style=>"color:white;" %>
+		<%= link_to "お問い合わせ", "/inqury", :style=>"color:white;" %>
 	    </div>
 	</div>
     </footer>

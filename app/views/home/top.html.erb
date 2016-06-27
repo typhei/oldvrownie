@@ -1,10 +1,10 @@
 <% @page.each do |arr| %>
     <div class="blockwrapper">
 	<div id="imagewrapper">
-	    <%= image_tag arr.image, :size=>"200x170" %>
+	    <%= link_to image_tag(arr.image, {:border=>"0", :size=>"200x170",:alt=>"image"}), arr.url, :target=>["_blank"]%>
 	</div>
 	<div id="bodywrapper">
-	    <h3><%= link_to arr.title, arr.url %></h3>
+	    <h3><%= link_to arr.title, arr.url ,:target=>["_blank"] %></h3>
 	    <span><%= arr.body %></span>
 	</div>
     </div>
@@ -13,18 +13,28 @@
 
 <div class="paging">
     <% if @start <= 3 || @start.nil? then %>
-	<% paging = [1,2,3,4,5] %>
+	<% paging = [1,2,3,4,5,"...","次へ","最後"] %>
 	<% if @start == 0 then %>
 	    <% @start = 1 %>
 	<% end %>
     <% else %>
-	<% paging = [@start-2, @start-1, @start, @start+1, @start+2] %>
+	<% paging = ["最初","前へ", @start-2, @start-1, @start, @start+1, @start+2,"次へ","最後"] %>
     <% end %>
     <% paging.each do |p| %>
-	<% if p == @start || p.is_a?(String) then %>
-	    <span><%= p.to_s %></span>
+	<% if p == @start then %>
+	    <div class="start_number"><span id="inner"><%= p.to_s %></span></div>
+	<% elsif p == "最初" then %>
+	    <div class="numbers"><span id="inner"><%= link_to "最初", "/top/" %></span></div>
+	<% elsif p == "前へ" then %>
+	    <div class="numbers"><span id="inner"><%= link_to "前へ", "/home/top/"+(@start-1).to_s %></span></div>
+	<% elsif p == "次へ" then %>
+	    <div class="numbers"><span id="inner"><%= link_to "次へ", "/home/top/"+(@start+1).to_s %></span></div>
+	<% elsif p == "最後" then %>
+	    <div class="numbers"><span id="inner"><%= link_to "最後", "/home/top/5" %></span></div>
+	<% elsif p == "..." then %>
+	    <div class="start_number"><span id="inner">...</span></div>
 	<% else %>
-	    <%= link_to p.to_s, "/home/top/"+p.to_s %>
+	    <div class="numbers"><span id="inner"><%= link_to p.to_s, "/home/top/"+p.to_s %></span></div>
 	<% end %>
     <% end %>
 </div>

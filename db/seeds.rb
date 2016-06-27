@@ -1,81 +1,81 @@
 #coding: utf-8
 @page = Page.new
-@page.number = 30
-@page.title = "アダルトVRフェスタに行ってきた話 - 端的に言うと20文字くらいに収まるのにそれを4000文字ぐらい使って書くブログ"
-@page.url = "http://20to4000.hatenablog.com/entry/2016/06/12/160858"
-@page.image = "/assets/20160612154656.jpg"
-@page.body = "技術の進化がめざましい昨今だ。その技術は我々の生活に深く寄与し、安全や利便性、豊かさをもたらしている。技術というと何も最新のものだけを指すわけでもなく、たとえば朝起きて会社に行き仕事をし、家に帰って寝るまでの間にも様々な技術の恩恵を受けている。 科学技術の結晶たるスマートフォンの目覚まし時計アプリで目を覚まし、各種SNSをチェック。ティファールでお湯を沸かしてコーヒーを飲みつつめざましテレビのめざましじゃんけんに参加。シャワーに入り準備を整え駅に向かうとsuicaをタッチして構内に。会社に着くとPCを立ち上げエクセルやワードで資料を作成する。仕事を終えて一杯飲んで帰るかっつってお金が無い君は金…"
+@page.number = 40
+@page.title = "日本初！アダルトVRフェスタ01 イベントレポートまとめ : アダルトまとめ"
+@page.url = "http://eroido.jp/page/7845"
+@page.image = "/assets/7746.jpg"
+@page.body = " アダルト分野のVRを本気で考え体験するイベント「アダルトVRフェスタ01」6/12に秋葉原で開催されました。 。アダルトVRフェスタ、二次元画像・動画など。"
 @page.save
 
 @page = Page.new
-@page.number = 29
-@page.title = "【VR】6月12日秋葉原で日本初のアダルトVRイベント開催！"
-@page.url = "http://gesushinshi.com/science/1171"
-@page.image = "/assets/adult_vr_thumb.jpg"
-@page.body = "1: 海江田三郎 ★  2016/05/24(火) 20:14:28.36 ID:CAP_USERアダルトコンテンツ向けVR（仮想現実）の体験型イベント「アダルトVRフェスタ01」が、2016年6月12日（日）に東京・秋"
+@page.number = 39
+@page.title = "【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ :【2ch】ニュー速クオリティ"
+@page.url = "http://news4vip.livedoor.biz/archives/52167485.html"
+@page.image = "/assets/839a958a-s.jpg"
+@page.body = "1: 風吹けば名無し＠＼(^o^)／ 2016/06/21(火) 13:54:17.25 ID:ID:tKczVH+lp.net http://img6.mmo.mmo4arab.com/newforum/upload//2015/09/01/1441097370857.gif 引用元: 【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
 @page.save
 
 @page = Page.new
-@page.number = 28
-@page.title = "「PlayStation VR」の発売詳細が決定もエロコンテンツは排除？ プレステではヴァーチャルセックスはできない？ - 本と雑誌のニュースサイト／リテラ"
-@page.url = "http://lite-ra.com/2016/03/post-2073.html"
-@page.image = "/assets/PlayStationVR_01_160316-thumb-280x280-3788.jpg"
-@page.body = "PlayStationVRオフィシャルサイトより 　かねてより発売時期などの公式アナウンスが待ち望まれていた「PlayStation VR」の発売が、10月発売…"
+@page.number = 38
+@page.title = "なんで、この会場を選んだんだよ（笑）　史上初の「アダルトVRフェスタ」人が多すぎて中止に…… - おたぽる"
+@page.url = "http://otapol.jp/2016/06/post-7017_entry.html"
+@page.image = "/assets/1605_adultvr0615-thumb-490x343-18536.jpg"
+@page.body = "一般開場前に行われたプレス向けの内覧の様子 　12日、かねてより話題を集めていた、史上初のアダルトジャンルに限定したVR技術が一堂に関するイベント「アダルトVRフェスタ」が、秋葉原で開催された。 　VRを用いたアダルトは、近年商業ベースでリリースを始める企業も登場。一部に人気の高いエロゲー『カスタム…"
 @page.save
 
 @page = Page.new
-@page.number = 27
-@page.title = "【アダルトVRフェスタ】主催者「リアルはコスパ悪い」　超満員で入場不可のアダルトVRフェスタ01という試みとその先 | ニコニコニュース"
-@page.url = "http://news.nicovideo.jp/watch/nw2235697"
-@page.image = "/assets/1980467l.jpg"
-@page.body = "ph-00-600x338[1].jpgニコニコニュース(オリジナル)2016年6月12日、アダルトVRを集めた日本で初めてのイベント、アダルトVRフェスタ01が東京・秋葉原のイベントスペースにて催された。だが、主催側の想定をはるかに超える来場者が集まり、屋外で待機していた参加予定者たちは開始時間直前に入場中止となる騒ぎとな..."
+@page.number = 37
+@page.title = "カスタムメイド3D2とかいう次世代VRエロゲwwwwwww"
+@page.url = "http://nijitoraware.com/archives/27863"
+@page.image = "/assets/4194b50b1eb0e8bb63a96ed1e008afab.jpg"
+@page.body = "1: 名無しオンライン  2016/05/18(水) 09:01:30.38 ID:xzjoY7G4.net 2: 名無しオンライン  2016/05/18(水) 09:10:20.63 ID:8/qXYN2d.net これはまずいですよ！"
 @page.save
 
 @page = Page.new
-@page.number = 26
-@page.title = "【gif画像】最新VRセックスセット、家族に見つかったら自殺級であることが判明 : ゆるりと　ひじきそくほう"
-@page.url = "http://hijikisokuhou.doorblog.jp/archives/8594707.html"
-@page.image = "/assets/f8ae5249-s.jpg"
-@page.body = "1: 以下、＼(^o^)／でVIPがお送りします  2016/05/28(土) 07:24:53.172 ID:SLfMm26B0 エレクチオンしてえズラ  HTC VIVEやOculus Rift、PlayStationVRなどVR関連のハードウェアやコンテンツが大きな注目を集めている中、  国内初というアダルトVRの体験イベント「アダルトVR"
+@page.number = 36
+@page.title = "動画あり【R18 エロ】秋葉原のアダルトVRフェスタ、開催中止の理由とは？一方ロサンゼルスのゲームショー、「E3」ではVRでのバーチャルポルノに長蛇の列！"
+@page.url = "http://raku-job.jp/news/recruitment/19952/"
+@page.image = "/assets/toiawase-1024x226-1-2-850x188.jpg"
+@page.body = "アダルトVRフェスタは警察の介入によりあえなく中止 先日、下記の記事でご紹介した6月12日のアダルトVRフェス…"
 @page.save
 
 @page = Page.new
-@page.number = 25
-@page.title = "★二次元嫁とセックスできるアダルトVRイベントに人が来過ぎて中止にｗｗ　画像あり : やみなべエロ画像"
-@page.url = "http://blog.livedoor.jp/yaminabenews/archives/1058356947.html"
-@page.image = "/assets/926b546e.gif"
-@page.body = "アダルトVRｇｉｆ動画　エロゲーブームが来るかもね"
+@page.number = 35
+@page.title = "【動画あり】秋葉原で即中止になった「アダルトVRフェスタ」、奇跡的に入場できたがこれは地獄絵図ｗｗｗｗｗｗ :【2ch】ニュー速クオリティ"
+@page.url = "http://news4vip.livedoor.biz/archives/52167079.html"
+@page.image = "/assets/d13efeec-s.jpg"
+@page.body = "1:  頭突き(東京都)＠＼(^o^)／ 2016/06/18(土) 20:21:46.71 ID:ID:I+pyHLFS0.net 　6月12日に秋葉原で史上初の「アダルトVRフェスタ」が開催されました。秋葉原の雑居ビルの1フロアで行なわれた  小さなイベントでしたが、プレスの入場にも1時間以上かかったほか、一般入場"
 @page.save
 
 @page = Page.new
-@page.number = 24
-@page.title = "VRセックスうらやましすぎる"
-@page.url = "http://anond.hatelabo.jp/20160612231547"
-@page.image = "/assets/og-image-1500.gif"
-@page.body = "VRでセックスできるイベントに人が集まりすぎて大変だったらしい。俺は、今２７歳。クッソ悔しい。俺の時代はオナホ、オナニー、xvideos、エロゲ…"
+@page.number = 34
+@page.title = "VRのこれからの成長は？エロゲーとVRとビデオ戦争"
+@page.url = "http://raku-job.jp/news/companyrep/17383/"
+@page.image = "/assets/toyo.jpg"
+@page.body = "VR市場のこれから 記事を読んでいただきありがとうございます。今回取り上げるのはVRに関する話です。VRといえ…"
 @page.save
 
 @page = Page.new
-@page.number = 23
-@page.title = "ゲーム 話題のアダルトVR、体験できるゲームはこれ！家に美少女がやってくる！？"
-@page.url = "http://raku-job.jp/news/feature/18715/"
-@page.image = "/assets/image-2.jpeg"
-@page.body = "アダルトVRというジャンル 昨日ご紹介した下記の「アダルトVRフェスタ」についての記事が人気です。 優れた没入…"
+@page.number = 33
+@page.title = "“ヴァーチャル・セックス”は、何を産み出す？　「アダルトVRフェスタ」で最前線にいるクリエイターに聞く (2/3)"
+@page.url = "http://www.itmedia.co.jp/pcuser/articles/1606/15/news049_2.html"
+@page.image = "/assets/ky_vradult-01.jpg"
+@page.body = "「歴史上、ポルノが繁栄しないメディアなど存在しない」――VRブームを迎えた今、水面下で盛り上がりを見せるのがアダルトコンテンツだ。VRは“大人の快楽”にどんなブレイクスルーをもたらすか。国内初となるイベント「アダルトVRフェスタ01」で、アダルトVRの最前線にいるクリエイターたちに話を聞いた。1ページ目はVRの現状、2ページ目以降はアダルトVRに関する話題を取り扱う。"
 @page.save
 
 @page = Page.new
-@page.number = 22
-@page.title = "識者「エロを極めたVR企業こそがヴァーチャルリアリティの覇者となるだろう」 : オレ的ゲーム速報＠刃"
-@page.url = "http://jin115.com/archives/52115175.html"
-@page.image = "/assets/4363be8e.jpg"
-@page.body = "識者「エロを極めたVR企業こそがヴァーチャルリアリティの覇者となるだろう」の記事ページ"
+@page.number = 32
+@page.title = "PlayStation VRが超えられない「エロの壁」。VR普及のカギはアダルトコンテンツ？"
+@page.url = "http://vr.cravelweb.com/column/playstationvr-vr-adult-contents"
+@page.image = "/assets/playstationvr-summer-lesson.jpg"
+@page.body = "VRヘッドセットデバイスのオキュラスリフトが予約開始され、PlayStation VR(PSVR)の発売もまも…"
 @page.save
 
 @page = Page.new
-@page.number = 21
-@page.title = "【動画像】VRヘッドセットの凄さはもっと広く知れ渡るべき！！！！ :【2ch】ニュー速クオリティ"
-@page.url = "http://news4vip.livedoor.biz/archives/52140820.html"
-@page.image = "/assets/0fcfb4dc-s.jpg"
-@page.body = "1: 風吹けば名無し＠＼(^o^)／ 2016/02/05(金) 09:52:16.46 ID:AOaJVhgma.net Oculus RiftとPSVRがコケたらもうVRの時代は来ない  多分成功するだろうけど不安だからもっと広まって欲しいわ  なにしろVRだと視覚的にはセックスしまくれるしついに悲願だった2次元とのセックス"
+@page.number = 31
+@page.title = "突き詰めたエロスはバカになる　「アダルトVRフェスタ」の近未来セックス"
+@page.url = "http://sciencenews.co.jp/2016/06/17/post-2522/"
+@page.image = "/assets/20160618ero01.jpg"
+@page.body = "7兆円市場はエロスが切り拓くのか？ 時速60㎞の車から手を出した時の感触が本当にDカップかどうかが体感できる作品。つくづくバカは偉大だと思う 【写真：川口友万　以下同】 　メディアはエロスで進化する。 　VHSしかりネット動画しかり、功罪は"
 @page.save
 
