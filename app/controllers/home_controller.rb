@@ -4,10 +4,12 @@ class HomeController < ApplicationController
     i = Page.maximum(:number)
     count = 1
     @page = []
+    @toparticle = Page.find_by(:number => i)
     @start = params[:start].to_i
     if @start < 1 then
       @start = 1
     end
+    i -= 1
     if !@start.nil? then
       i -= (@start-1)*10
     end

@@ -37,7 +37,7 @@
 @page.number = 46
 @page.title = "VRセックスうらやましすぎる"
 @page.url = "http://anond.hatelabo.jp/20160612231551"
-@page.image = "/assets/"
+@page.image = "/assets/sample"
 @page.body = "VRでセックスできるイベントに人が集まりすぎて大変だったらしい。俺は、今２７歳。クッソ悔しい。俺の時代はオナホ、オナニー、xvideos、エロゲ…"
 @page.save
 
