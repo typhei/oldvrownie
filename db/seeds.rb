@@ -1,81 +1,83 @@
 #coding: utf-8
 @page = Page.new
-@page.number = 40
-@page.title = "日本初！アダルトVRフェスタ01 イベントレポートまとめ : アダルトまとめ"
-@page.url = "http://eroido.jp/page/7845"
-@page.image = "/assets/7746.jpg"
-@page.body = " アダルト分野のVRを本気で考え体験するイベント「アダルトVRフェスタ01」6/12に秋葉原で開催されました。 。アダルトVRフェスタ、二次元画像・動画など。"
+@page.number = 50
+@page.title = "【悲報】アダルトVR、家族が見たら自殺級であることが判明wwwwwww"
+@page.url = "http://nijitoraware.com/archives/28071"
+@page.image = "/assets/910bedf393a6c3f50d5f11ce35dd8c88.jpg"
+@page.body = "1: 以下、＼(^o^)／でVIPがお送りします  2016/05/28(土) 07:24:53.172 ID:SLfMm26B0.net エレク○オンしてえズラ   HTC VIVEやOculus Rift、PlayStationVRなど"
 @page.save
 
 @page = Page.new
-@page.number = 39
-@page.title = "【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ :【2ch】ニュー速クオリティ"
-@page.url = "http://news4vip.livedoor.biz/archives/52167485.html"
-@page.image = "/assets/839a958a-s.jpg"
-@page.body = "1: 風吹けば名無し＠＼(^o^)／ 2016/06/21(火) 13:54:17.25 ID:ID:tKczVH+lp.net http://img6.mmo.mmo4arab.com/newforum/upload//2015/09/01/1441097370857.gif 引用元: 【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+@page.number = 49
+@page.title = "「PlayStation VR」の発売詳細が決定もエロコンテンツは排除？ プレステではヴァーチャルセックスはできない？（リテラ） - グノシー"
+@page.url = "https://gunosy.com/articles/Rm453"
+@page.image = "/assets/ef0b807bf4eaa93991eaf9cdfb970f93_content.jpg"
+@page.body = "PlayStationVRオフィシャルサイトより
+かねてより発売時期などの公式アナウンスが待ち望まれていた「PlayStation VR」の発売が、10月発売で値段は44980円になると正式発表された。
+そんななか、ネットを中心に盛り上がっているのは、「PlayStation VR」に対応したエロゲーは発売されるのか否かという話題だ。VHS対ベータの対決を例に出すまでもなく、「最新家電の成功の鍵を"
 @page.save
 
 @page = Page.new
-@page.number = 38
-@page.title = "なんで、この会場を選んだんだよ（笑）　史上初の「アダルトVRフェスタ」人が多すぎて中止に…… - おたぽる"
-@page.url = "http://otapol.jp/2016/06/post-7017_entry.html"
-@page.image = "/assets/1605_adultvr0615-thumb-490x343-18536.jpg"
-@page.body = "一般開場前に行われたプレス向けの内覧の様子 　12日、かねてより話題を集めていた、史上初のアダルトジャンルに限定したVR技術が一堂に関するイベント「アダルトVRフェスタ」が、秋葉原で開催された。 　VRを用いたアダルトは、近年商業ベースでリリースを始める企業も登場。一部に人気の高いエロゲー『カスタム…"
+@page.number = 48
+@page.title = "世紀の大発明！VRゲームのエロゲーがやばいのでぜひおすすめしたいｗ | モテなくて困っている男が必死にデリヘルを語るブログ"
+@page.url = "http://theballoonproject.org/4020/"
+@page.image = "/assets/VR-Porn-Movie-Trailer-Desired-Cumshot-Pornhub.com_.png"
+@page.body = "世間で注目を浴びているVGゲー！ゲーム好きはもちろんエロ好きも無視できないぜ！ということで、VRゲームのエロゲージャンル情報を物色したところ、結構意味不明だったｗｗｗ"
 @page.save
 
 @page = Page.new
-@page.number = 37
-@page.title = "カスタムメイド3D2とかいう次世代VRエロゲwwwwwww"
-@page.url = "http://nijitoraware.com/archives/27863"
-@page.image = "/assets/4194b50b1eb0e8bb63a96ed1e008afab.jpg"
-@page.body = "1: 名無しオンライン  2016/05/18(水) 09:01:30.38 ID:xzjoY7G4.net 2: 名無しオンライン  2016/05/18(水) 09:10:20.63 ID:8/qXYN2d.net これはまずいですよ！"
+@page.number = 47
+@page.title = "VR×アダルトが普及する未来に男女平等社会の可能性を見た"
+@page.url = "http://entamevr.com/vr-porn-industry"
+@page.image = "/assets/San_Fernando_1454243349.jpg"
+@page.body = "ゲームコンテンツ、体験型アトラクション、様々な方法で新しい体験を提供し続けるVR業界、日本ではまだまだ普及に時間が掛かりそうですが、アメリカでは既に大きな盛り上がりを見せています。   特にVRとポルノ（アダルト）コンテンツの組み合わせは収益的にみても2014年~2015年の間に急成長しています。オキュラスリフトを使い360度見渡さえるアダルト動画作成をする企業も既にいくつも存在しています。   VRには興味なくても、Hなコンテンツに興味がある男性は多いですし。   個人的には若干不本意ではありますが、日本でもVRが大きく流行するのは「アダルト業界」なんじゃないかなと予想しています。アダルト産業ってのはいつの時代も強いですからね。   日本でもDMMさんとか、TENGAさんとかはVR関連のプロジェクトもありますしね。   あ、ちなみに不本意といったのは、世間でVR=アダルトみたいな観念が定着して、女性離れが加速しそうだなぁという懸念からでそれ自体を否定しているわけじゃありません（ただでさえVR市場は男性ばかり笑）。   というか、ポジティブな視点で見ればVRの流行、普及促進は勿論、女性の目指す【男女平等】の社会を実現する第一歩になるんじゃないかなと思いました。   いきなりのVRポルノと男女平等社会発言に「は？」「何言ってるのこいつ？」って思った方もいるかもしれないですけど、大真面目に書いたのでよかったら見てってください。   本記事内容はあくまで批評を目的としているものですが、紹介する参考動画の中には性的表現が含まれているので、１８歳未満の人は動画を再生しないでね VRで生まれるデジタル恋愛の形 https://youtu.be/FBRSR_LGlOE 動画「The Digital Love Industry」は30分間と若干長い動画ですが、時代と共に変わる「デジタルと人間の愛の形」について分かりやすく説明されているのでオススメです（日本語字幕あり）。   VRLAのCo-organizerであるJonnie Ross氏は真剣な面持ちで「俺はスター・ウォーズの世界で女性とヤるのが夢だ」と語っています（動画4:33辺り）。  "
 @page.save
 
 @page = Page.new
-@page.number = 36
-@page.title = "動画あり【R18 エロ】秋葉原のアダルトVRフェスタ、開催中止の理由とは？一方ロサンゼルスのゲームショー、「E3」ではVRでのバーチャルポルノに長蛇の列！"
-@page.url = "http://raku-job.jp/news/recruitment/19952/"
-@page.image = "/assets/toiawase-1024x226-1-2-850x188.jpg"
-@page.body = "アダルトVRフェスタは警察の介入によりあえなく中止 先日、下記の記事でご紹介した6月12日のアダルトVRフェス…"
+@page.number = 46
+@page.title = "VRセックスうらやましすぎる"
+@page.url = "http://anond.hatelabo.jp/20160612231551"
+@page.image = "/assets/"
+@page.body = "VRでセックスできるイベントに人が集まりすぎて大変だったらしい。俺は、今２７歳。クッソ悔しい。俺の時代はオナホ、オナニー、xvideos、エロゲ…"
 @page.save
 
 @page = Page.new
-@page.number = 35
-@page.title = "【動画あり】秋葉原で即中止になった「アダルトVRフェスタ」、奇跡的に入場できたがこれは地獄絵図ｗｗｗｗｗｗ :【2ch】ニュー速クオリティ"
-@page.url = "http://news4vip.livedoor.biz/archives/52167079.html"
-@page.image = "/assets/d13efeec-s.jpg"
-@page.body = "1:  頭突き(東京都)＠＼(^o^)／ 2016/06/18(土) 20:21:46.71 ID:ID:I+pyHLFS0.net 　6月12日に秋葉原で史上初の「アダルトVRフェスタ」が開催されました。秋葉原の雑居ビルの1フロアで行なわれた  小さなイベントでしたが、プレスの入場にも1時間以上かかったほか、一般入場"
+@page.number = 45
+@page.title = "【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ : Oh!暇なのよ！？"
+@page.url = "http://ohhima.doorblog.jp/archives/47839374.html"
+@page.image = "/assets/cc4a9040-s.jpg"
+@page.body = "1:   2016/06/21(火) 13:54:17.25 ID:tKczVH+lp http://img6.mmo.mmo4arab.com/newforum/upload//2015/09/01/1441097370857.gif 2:   2016/06/21(火) 13:54:56.23 ID:TBh4+Imy0 せやけどこれが人類の未来や 4:   2016/06/21(火) 13:55:20.66 ID:E4DSlR9J0  155:   2016"
 @page.save
 
 @page = Page.new
-@page.number = 34
-@page.title = "VRのこれからの成長は？エロゲーとVRとビデオ戦争"
-@page.url = "http://raku-job.jp/news/companyrep/17383/"
-@page.image = "/assets/toyo.jpg"
-@page.body = "VR市場のこれから 記事を読んでいただきありがとうございます。今回取り上げるのはVRに関する話です。VRといえ…"
+@page.number = 44
+@page.title = "VRデモ『サマーレッスン』に金髪美女の新キャラきたああああああ！原田Pもゲーム内に登場ｗｗｗｗｗ : オレ的ゲーム速報＠刃"
+@page.url = "http://jin115.com/archives/52085200.html"
+@page.image = "/assets/d5b34474.jpg"
+@page.body = "VRデモ『サマーレッスン』に金髪美女の新キャラきたああああああ！原田Pもゲーム内に登場ｗｗｗｗｗの記事ページ"
 @page.save
 
 @page = Page.new
-@page.number = 33
-@page.title = "“ヴァーチャル・セックス”は、何を産み出す？　「アダルトVRフェスタ」で最前線にいるクリエイターに聞く (2/3)"
-@page.url = "http://www.itmedia.co.jp/pcuser/articles/1606/15/news049_2.html"
-@page.image = "/assets/ky_vradult-01.jpg"
-@page.body = "「歴史上、ポルノが繁栄しないメディアなど存在しない」――VRブームを迎えた今、水面下で盛り上がりを見せるのがアダルトコンテンツだ。VRは“大人の快楽”にどんなブレイクスルーをもたらすか。国内初となるイベント「アダルトVRフェスタ01」で、アダルトVRの最前線にいるクリエイターたちに話を聞いた。1ページ目はVRの現状、2ページ目以降はアダルトVRに関する話題を取り扱う。"
+@page.number = 43
+@page.title = "Google、99ドルのAndroid搭載VRヘッドセットを来週発表か。Oculus、Vive、PSVR、全滅 : ニコニコVIP2ch"
+@page.url = "http://blog.livedoor.jp/nicovip2ch/archives/1948209.html"
+@page.image = "/assets/56031129-s.jpg"
+@page.body = "1:   2016/05/12(木) 13:12:30.06 ID:wcCvnwv40 BE:422186189-2BP(1515)  Googleはカードボード（ダンボール）の先へ進もうとしている。    同社は、スタンドアロンのAndroid VRヘッドセットを来週のGoogle I/Oイベントで発表する見込みだ。  ITジャーナリストの Peter Roja"
 @page.save
 
 @page = Page.new
-@page.number = 32
-@page.title = "PlayStation VRが超えられない「エロの壁」。VR普及のカギはアダルトコンテンツ？"
-@page.url = "http://vr.cravelweb.com/column/playstationvr-vr-adult-contents"
-@page.image = "/assets/playstationvr-summer-lesson.jpg"
-@page.body = "VRヘッドセットデバイスのオキュラスリフトが予約開始され、PlayStation VR(PSVR)の発売もまも…"
+@page.number = 42
+@page.title = "日本初のアダルトVRフェス　VR市場の鍵を握るエ口コンテンツの最先端"
+@page.url = "http://kai-you.net/article/29419"
+@page.image = "/assets/CjUIbNcUkAI7KDF.jpg"
+@page.body = "アダルトコンテンツをメインとしたVR（バーチャルリアリティ）を体験できるイベント「アダルトVRフェスタ01」が、6月12日（日）に東京・秋葉原popdojoイベントスペースで開催される。特別協賛にAVのVRコンテンツを配信するAdultFestaTV、特別強力としてアダルトVRにつ..."
 @page.save
 
 @page = Page.new
-@page.number = 31
-@page.title = "突き詰めたエロスはバカになる　「アダルトVRフェスタ」の近未来セックス"
-@page.url = "http://sciencenews.co.jp/2016/06/17/post-2522/"
-@page.image = "/assets/20160618ero01.jpg"
-@page.body = "7兆円市場はエロスが切り拓くのか？ 時速60㎞の車から手を出した時の感触が本当にDカップかどうかが体感できる作品。つくづくバカは偉大だと思う 【写真：川口友万　以下同】 　メディアはエロスで進化する。 　VHSしかりネット動画しかり、功罪は"
+@page.number = 41
+@page.title = "美少女と仮想世界で戯れるVR対応スマホRPGがやばそう　最高の学園生活"
+@page.url = "http://kai-you.net/article/28614"
+@page.image = "/assets/4b405f9b544d8d63667ef563a625b4fb.jpg"
+@page.body = "VR（バーチャルリアリティ）モードを搭載した美少女バトルRPGアプリ『オルタナティブガールズ』が、2016年夏にiOS／Android向けに配信される。今作は、一部のストーリーがVRに対応しており、市販のVRゴーグルにスマホをセットするだけで、お気に入りの女の子たちに「..."
 @page.save
 

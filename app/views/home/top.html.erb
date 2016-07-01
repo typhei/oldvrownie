@@ -1,11 +1,22 @@
-<% @page.each do |arr| %>
+<div class="toparticlewrapper">
+    <%= link_to image_tag(@page[0].image, {:size=>"700x300", :alt=>"image"}), @page[0].url, :target=>["_blank"]%>
+    <div class="titlelayer">
+	<%= link_to @page[0].title, @page[0].url, :target=>["_blank"], :style=>"color:white"%>
+    </div>
+</div>
+<% @page.each_slice(2) do |arr1, arr2| %>
     <div class="blockwrapper">
-	<div id="imagewrapper">
-	    <%= link_to image_tag(arr.image, {:border=>"0", :size=>"200x170",:alt=>"image"}), arr.url, :target=>["_blank"]%>
+	<div id="imagewrapper" style="float:left;">
+	    <%= link_to image_tag(arr1.image, {:border=>"0", :size=>"300x200",:alt=>"image"}), arr1.url, :target=>["_blank"]%>
+	    <div class="subtitlelayer">
+		<h3><%= link_to arr1.title, arr1.url ,:target=>["_blank"], :style=>"color:white" %></h3>
+	    </div>
 	</div>
-	<div id="bodywrapper">
-	    <h3><%= link_to arr.title, arr.url ,:target=>["_blank"] %></h3>
-	    <span><%= arr.body %></span>
+	<div id="imagewrapper" style="float:right;">
+	    <%= link_to image_tag(arr2.image, {:border=>"0", :size=>"300x200",:alt=>"image"}), arr2.url, :target=>["_blank"]%>
+	    <div class="subtitlelayer">
+		<h3><%= link_to arr2.title, arr2.url ,:target=>["_blank"],:style=>"color:white" %></h3>
+	    </div>
 	</div>
     </div>
     <Hr width="700px" color="#cfcfcf">

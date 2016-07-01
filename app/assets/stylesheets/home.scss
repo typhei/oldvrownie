@@ -104,27 +104,49 @@ footer .small {
 }
 
 /* 独自 ================================*/
+.toparticlewrapper{
+  width:700px;
+  height:300px;
+  position:relative;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.titlelayer{
+  width:700px;
+  height:100px;
+  position:absolute;
+  bottom:0;
+  background-color:rgba(34, 49, 52, 0.9);
+  opacity:0.8;
+  font-size:25px;
+  font-weight:bold;
+}
+
 .blockwrapper {
   width:700px;
   height: 210px;
   margin:10px auto;
-  padding:5px;
 }
+
 
 #imagewrapper{
-  margin-top:10px;
-  width:200px;
-  height:190px;
-  float:left;
-}
-
-#bodywrapper {
-  width:490px;
+  width:300px;
   height:200px;
-  overflow:scroll;
-  float:right;
+  position:relative;
+  overflow:hidden;
 }
 
+.subtitlelayer{
+  width:300px;
+  height:70px;
+  position:absolute;
+  bottom:0;
+  background-color:rgba(34, 49, 52, 0.9);
+  opacity:0.8;
+  font-size:10px;
+  font-weight:bold;
+}
 
 //ページ遷移部分
 .paging{
