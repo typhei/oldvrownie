@@ -1,83 +1,81 @@
 #coding: utf-8
 @page = Page.new
-@page.number = 50
-@page.title = "【悲報】アダルトVR、家族が見たら自殺級であることが判明wwwwwww"
-@page.url = "http://nijitoraware.com/archives/28071"
-@page.image = "/assets/910bedf393a6c3f50d5f11ce35dd8c88.jpg"
-@page.body = "1: 以下、＼(^o^)／でVIPがお送りします  2016/05/28(土) 07:24:53.172 ID:SLfMm26B0.net エレク○オンしてえズラ   HTC VIVEやOculus Rift、PlayStationVRなど"
+@page.number = 70
+@page.title = "【日本ﾊｼﾞﾏﾀ】秋葉原で即中止になった『アダルトVRフェスタ』が地獄絵図wwwwwwww | エロ牧場｜エロ画像まとめサイト"
+@page.url = "http://eropasture.com/archives/57175449.html"
+@page.image = "/assets/9-12.jpg"
+@page.body = "【日本ﾊｼﾞﾏﾀ】秋葉原で即中止になった『アダルトVRフェスタ』が地獄絵図wwwwwwww   今すぐ見なきゃ気になる厳選記事だな(*´Д`)紹介記事先で存分に楽しんでくれｗｗｗ  続きを見る 本日ピックアップ記事"
 @page.save
 
 @page = Page.new
-@page.number = 49
-@page.title = "「PlayStation VR」の発売詳細が決定もエロコンテンツは排除？ プレステではヴァーチャルセックスはできない？（リテラ） - グノシー"
-@page.url = "https://gunosy.com/articles/Rm453"
-@page.image = "/assets/ef0b807bf4eaa93991eaf9cdfb970f93_content.jpg"
-@page.body = "PlayStationVRオフィシャルサイトより
-かねてより発売時期などの公式アナウンスが待ち望まれていた「PlayStation VR」の発売が、10月発売で値段は44980円になると正式発表された。
-そんななか、ネットを中心に盛り上がっているのは、「PlayStation VR」に対応したエロゲーは発売されるのか否かという話題だ。VHS対ベータの対決を例に出すまでもなく、「最新家電の成功の鍵を"
+@page.number = 69
+@page.title = "VRポルノの撮影現場に潜入、VRポルノはこうやって作る - GIGAZINE"
+@page.url = "http://ceron.jp/url/gigazine.net/news/20160805-making-vr-movie/"
+@page.image = "/assets/c72427ab21714f553294c9e47006b0d6306dad10.jpg"
+@page.body = "[16件のコメント] 新しい技術の浸透はこういう分野からだね→ / なんだ実写かよって思ってしまった／ / CM3D2、何か言ってやれ // / VRでAVがみれる！ / こういうのがスタンダードになるなら少し潮目変わるのかなー？ / : すでに発売されている Oculus Rift や HTC Vive…"
 @page.save
 
 @page = Page.new
-@page.number = 48
-@page.title = "世紀の大発明！VRゲームのエロゲーがやばいのでぜひおすすめしたいｗ | モテなくて困っている男が必死にデリヘルを語るブログ"
-@page.url = "http://theballoonproject.org/4020/"
-@page.image = "/assets/VR-Porn-Movie-Trailer-Desired-Cumshot-Pornhub.com_.png"
-@page.body = "世間で注目を浴びているVGゲー！ゲーム好きはもちろんエロ好きも無視できないぜ！ということで、VRゲームのエロゲージャンル情報を物色したところ、結構意味不明だったｗｗｗ"
+@page.number = 68
+@page.title = "激安でVRアダルト動画を体験したいか？なら、Google Cardboardでエロ動画を視聴、360度抜群な没入感へ"
+@page.url = "http://ting456789.n-da.jp/e700203.html"
+@page.image = "/assets/profile.jpg"
+@page.body = "元リンク：http://www.5kplayer.com/youtube-download-jp/how-to-watch-vr-adult-video-with-google-car..."
 @page.save
 
 @page = Page.new
-@page.number = 47
-@page.title = "VR×アダルトが普及する未来に男女平等社会の可能性を見た"
-@page.url = "http://entamevr.com/vr-porn-industry"
-@page.image = "/assets/San_Fernando_1454243349.jpg"
-@page.body = "ゲームコンテンツ、体験型アトラクション、様々な方法で新しい体験を提供し続けるVR業界、日本ではまだまだ普及に時間が掛かりそうですが、アメリカでは既に大きな盛り上がりを見せています。   特にVRとポルノ（アダルト）コンテンツの組み合わせは収益的にみても2014年~2015年の間に急成長しています。オキュラスリフトを使い360度見渡さえるアダルト動画作成をする企業も既にいくつも存在しています。   VRには興味なくても、Hなコンテンツに興味がある男性は多いですし。   個人的には若干不本意ではありますが、日本でもVRが大きく流行するのは「アダルト業界」なんじゃないかなと予想しています。アダルト産業ってのはいつの時代も強いですからね。   日本でもDMMさんとか、TENGAさんとかはVR関連のプロジェクトもありますしね。   あ、ちなみに不本意といったのは、世間でVR=アダルトみたいな観念が定着して、女性離れが加速しそうだなぁという懸念からでそれ自体を否定しているわけじゃありません（ただでさえVR市場は男性ばかり笑）。   というか、ポジティブな視点で見ればVRの流行、普及促進は勿論、女性の目指す【男女平等】の社会を実現する第一歩になるんじゃないかなと思いました。   いきなりのVRポルノと男女平等社会発言に「は？」「何言ってるのこいつ？」って思った方もいるかもしれないですけど、大真面目に書いたのでよかったら見てってください。   本記事内容はあくまで批評を目的としているものですが、紹介する参考動画の中には性的表現が含まれているので、１８歳未満の人は動画を再生しないでね VRで生まれるデジタル恋愛の形 https://youtu.be/FBRSR_LGlOE 動画「The Digital Love Industry」は30分間と若干長い動画ですが、時代と共に変わる「デジタルと人間の愛の形」について分かりやすく説明されているのでオススメです（日本語字幕あり）。   VRLAのCo-organizerであるJonnie Ross氏は真剣な面持ちで「俺はスター・ウォーズの世界で女性とヤるのが夢だ」と語っています（動画4:33辺り）。  "
+@page.number = 67
+@page.title = "アダルトVRで、世界のセックスが変わる！"
+@page.url = "http://quickbooks.impress.jp/?p=4313"
+@page.image = "/assets/8443997611000000000B-500x719.jpg"
+@page.body = "【アダルトVRフェスタ01】 それは2016年6月12日、秋葉原で突如行列ができ、たちまち中止に追い込まれたイベント。 開催前より注目していたネットメディアは挙って取り上げて、高いPV数を叩き出した！ それを主催していた…"
 @page.save
 
 @page = Page.new
-@page.number = 46
-@page.title = "VRセックスうらやましすぎる"
-@page.url = "http://anond.hatelabo.jp/20160612231551"
-@page.image = "/assets/sample"
-@page.body = "VRでセックスできるイベントに人が集まりすぎて大変だったらしい。俺は、今２７歳。クッソ悔しい。俺の時代はオナホ、オナニー、xvideos、エロゲ…"
+@page.number = 66
+@page.title = "VRポルノの撮影現場に潜入、VRポルノはこうやって作る"
+@page.url = "http://gigazine.net/news/20160805-making-vr-movie/"
+@page.image = "/assets/00_m.jpg"
+@page.body = "すでに発売されているOculus RiftやHTC Vive、2016年10月13日に発売されるPlayStation VRなど、2016年は今までと全く異なる映像体験をもたらすVRヘッドセットが"
 @page.save
 
 @page = Page.new
-@page.number = 45
-@page.title = "【画像】VRとセックスする奴やばすぎｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ : Oh!暇なのよ！？"
-@page.url = "http://ohhima.doorblog.jp/archives/47839374.html"
-@page.image = "/assets/cc4a9040-s.jpg"
-@page.body = "1:   2016/06/21(火) 13:54:17.25 ID:tKczVH+lp http://img6.mmo.mmo4arab.com/newforum/upload//2015/09/01/1441097370857.gif 2:   2016/06/21(火) 13:54:56.23 ID:TBh4+Imy0 せやけどこれが人類の未来や 4:   2016/06/21(火) 13:55:20.66 ID:E4DSlR9J0  155:   2016"
+@page.number = 65
+@page.title = "VRギアHTC Viveでブラック企業に体験入社してみた"
+@page.url = "http://ascii.jp/elem/000/001/205/1205619/?new"
+@page.image = "/assets/vr04_ogp.jpg"
+@page.body = "せきぐちあいみの体当たりVR体験、今回はR博士の手引きによりブラック企業のバーチャル体験。しかしこれがまた、よくできた作品なのです。"
 @page.save
 
 @page = Page.new
-@page.number = 44
-@page.title = "VRデモ『サマーレッスン』に金髪美女の新キャラきたああああああ！原田Pもゲーム内に登場ｗｗｗｗｗ : オレ的ゲーム速報＠刃"
-@page.url = "http://jin115.com/archives/52085200.html"
-@page.image = "/assets/d5b34474.jpg"
-@page.body = "VRデモ『サマーレッスン』に金髪美女の新キャラきたああああああ！原田Pもゲーム内に登場ｗｗｗｗｗの記事ページ"
+@page.number = 64
+@page.title = "VRギアHTC Viveでブラック企業に体験入社してみた"
+@page.url = "http://ascii.jp/elem/000/001/205/1205619/"
+@page.image = "/assets/"
+@page.body = "せきぐちあいみの体当たりVR体験、今回はR博士の手引きによりブラック企業のバーチャル体験。しかしこれがまた、よくできた作品なのです。"
 @page.save
 
 @page = Page.new
-@page.number = 43
-@page.title = "Google、99ドルのAndroid搭載VRヘッドセットを来週発表か。Oculus、Vive、PSVR、全滅 : ニコニコVIP2ch"
-@page.url = "http://blog.livedoor.jp/nicovip2ch/archives/1948209.html"
-@page.image = "/assets/56031129-s.jpg"
-@page.body = "1:   2016/05/12(木) 13:12:30.06 ID:wcCvnwv40 BE:422186189-2BP(1515)  Googleはカードボード（ダンボール）の先へ進もうとしている。    同社は、スタンドアロンのAndroid VRヘッドセットを来週のGoogle I/Oイベントで発表する見込みだ。  ITジャーナリストの Peter Roja"
+@page.number = 63
+@page.title = "PC向けVRヘッドセット、『HTC Vive』がシェア6割でOculusに圧勝"
+@page.url = "http://bnewg.sokuho.org/article/news-08051648.html"
+@page.image = "/assets/S__4521987.jpg"
+@page.body = "HTC Viveがシェア6割を獲得   SonyやFacebookやHTCといった主要なハイエンドVRヘッドセットが市場に出回ることで、2016年はVR元年とも叫ばれたが、そこには当然各社のシェア競争が存在している。  PCゲーム市…"
 @page.save
 
 @page = Page.new
-@page.number = 42
-@page.title = "日本初のアダルトVRフェス　VR市場の鍵を握るエ口コンテンツの最先端"
-@page.url = "http://kai-you.net/article/29419"
-@page.image = "/assets/CjUIbNcUkAI7KDF.jpg"
-@page.body = "アダルトコンテンツをメインとしたVR（バーチャルリアリティ）を体験できるイベント「アダルトVRフェスタ01」が、6月12日（日）に東京・秋葉原popdojoイベントスペースで開催される。特別協賛にAVのVRコンテンツを配信するAdultFestaTV、特別強力としてアダルトVRにつ..."
+@page.number = 62
+@page.title = "宅男福利资源 VR全景视频清新系美女与阳光有个约会"
+@page.url = "http://www.chinaz.com/vr/2016/0805/562428.shtml"
+@page.image = "/assets/2016080517131805.png"
+@page.body = "宅男福利资源 VR全景视频清新系美女与阳光有个约会"
 @page.save
 
 @page = Page.new
-@page.number = 41
-@page.title = "美少女と仮想世界で戯れるVR対応スマホRPGがやばそう　最高の学園生活"
-@page.url = "http://kai-you.net/article/28614"
-@page.image = "/assets/4b405f9b544d8d63667ef563a625b4fb.jpg"
-@page.body = "VR（バーチャルリアリティ）モードを搭載した美少女バトルRPGアプリ『オルタナティブガールズ』が、2016年夏にiOS／Android向けに配信される。今作は、一部のストーリーがVRに対応しており、市販のVRゴーグルにスマホをセットするだけで、お気に入りの女の子たちに「..."
+@page.number = 61
+@page.title = "Xiaomi、スマホＶＲデバイス「Mi VR Play」を発表 | Mogura VR"
+@page.url = "http://www.moguravr.com/mi-vr-play/"
+@page.image = "/assets/image0016.jpg"
+@page.body = "中国の電子機器メーカーXiaomiは、スマートフォン向けのVRデバイス「Mi VR Play」を発表しました。 このデバイスは伸縮に優れたポリウレタン製。可塑性と快適な使用感を実現するとしています。4.7から5.7インチまでのスマートフォンに対応しています。  この「Mi VR Play」はGoogle Cardboardタイプのスマートフォン向けVRデバイスであることが明らかになっています。前面にはスマホの位置を調整するための穴が開いているほか、ジッパーで開け閉めを行う構造になっています。金属製のボタンと反射防止レンズを使用しています。 体験できるコンテンツに関しては、中国国内では「Mi VR」と呼ばれるオープンプラットフォームのアプリを通じて配信するとのことです。 Xiaomiは8月1日からβテストのテスターを募集しています。応募には100万人が8時間で集まったとのこと。テスターには「Mi VR Play」が0.15ドル（15円）で配布されました。 一般発売時期、販売価格は未定です。 （参考） Xiaomi announces its first VR headset — but you can’t buy it yet https://techcrunch.com/2016/08/04/xiaomi-mi-vr-play-virtual-reality-headset/"
 @page.save
 

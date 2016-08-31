@@ -12,7 +12,7 @@ import numpy as np
 Terms = [u"アダルト", u"エロアニメ", u"ポルノ", u"巨乳", u"アダルトビデオ", u"セックス", u"エロゲ", u"美女", u"美少女", u"オナニー", u"VR", u"漫画", u"同人"]
 
 
-
+#ページのエンコーディングチェック
 def conv_encoding(data):
     lookup = ["iso-2022-jp", "euc-jp", "euc-jisx0213", "euc-jis-2004",
               "iso-2022-jp-1", "iso-2022-jp-2", "iso-2022-jp-3",
@@ -33,28 +33,36 @@ def conv_encoding(data):
 
         
                 
-
+#取得したウェブページをVRに関連の強い順番にソート
 def main():
+
+    #urlファイル
     f = open("urls")
+    #ソート後のファイル
     wt = open("sorted_URL", "w")
     num = 1
     termaverage,ranking = {},{}
-    for url in f:
+    
+    for u in f:
         try:
-            print url
-            res = urllib2.urlopen(url)
-            html = res.read()
+            url = u
+            title, description, image  = "", "", ""
+            
+            if u"http" not in url:
+                url = u"http://" + url
+            html = urllib2.urlopen(url).read()
 
             #文字コード判定・Unicodeに変換
             code = conv_encoding(html)
             if code is None:
                 raise "No Encoding Error"
 
+            #ページをBSで処理
             bfs = BeautifulSoup(html)
-            meta = bfs.find_all("meta") #metaタグ
-            title = ""
-            description = ""
-            image = ""
+            soup = bfs.text.replace(" ", "").replace("\n", "")
+
+            #OGP設定取得
+            meta = bfs.find_all("meta")
             for m in meta:
                 if m.get("property") is not None:
                     if m.get("property") == "og:title":
@@ -64,33 +72,30 @@ def main():
                     elif m.get("property") == "og:image":
                         image = m.get("content")
 
-            
+
+            #ページタイトルでフィルタ
             if title == "" or description == "" or image == "":
                 continue
             if u"漫画" in title or u"同人" in title:
                 continue
 
             #テキストのみ抽出
-            title = bfs.title.text
             print "タイトル：",title
-            soup = bfs.text.replace(" ", "").replace("\n", "")
+            if u"VR" not in soup:
+                continue
+            
             textlen = math.log(len(soup))
 
-            #リンク数
+            #リンク数、画像数
             numlinks = math.log(len(bfs.find_all("a")))
             numofimg = math.log(len(bfs.find_all("img")))
 
 
 
-#            if u"漫画" in title or u"同人" in title:
-#                print "continue"
-#                continue
-            
             termaverage[url] = []
-            termaverage[url].append(numlinks)
-            termaverage[url].append(numofimg)
-            print numlinks
-            print numofimg
+            #termaverage[url].append(numlinks)
+            #termaverage[url].append(numofimg)
+
             #対象文字列カウント
             for i in Terms:
                 if i in soup:
@@ -103,7 +108,9 @@ def main():
 
             if u"VR" in title:
                 termaverage[url] = [x*2 for x in termaverage[url]]
-                    
+
+                
+        #エラー処理
         except Exception as e:
             print "error"
             print e

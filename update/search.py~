@@ -1,0 +1,8 @@
+#-*- coding:utf-8 -*-
+from google import search
+from bs4 import BeautifulSoup
+import urllib
+
+for url in search("VR アダルト", stop=20 ,lang="ja"):
+    soup = BeautifulSoup(urllib.urlopen(url))
+    print soup.find("title").text

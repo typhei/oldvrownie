@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>vrownie</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-    <header class="navbar">
-	<div id="logo"><%= link_to "vrownie", "/top", :style =>"text-decoration:none; color:white; font-family:monospace;"%></div>
-    </header>
-    
-    <div class="container">
-	<%= yield %>
-	<div class="clear"></div>
-    </div>
-    
-    <footer class="footer">
-	<div class="small">
-	    <div id="links">
-		<%= link_to "ホーム", "/top", :style=>"color:white;" %>
-	    </div>
-	    <div id="links">
-		<%= link_to "このサイトについて", "/about", :style=>"color:white;" %>
-	    </div>
-	    <div id="links">
-		<%= link_to "お問い合わせ", "/inqury", :style=>"color:white;" %>
-	    </div>
+
+    <!-- 設定 -->
+    <head>
+	<title>vrownie</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+    </head>
+
+    <!--  本文　 -->
+    <body>
+
+	<!--  ヘッダー部分　 -->
+	<header class="navbar">
+	    <div id="logo"><%= link_to image_tag("/logo.png", {:size=>"350x65", :alt=>"logo"}), "/top" %></div>
+	</header>
+
+
+	<!--  メインコンテンツ　 -->
+	<div class="container">
+	    <%= yield %>
+	    <div class="clear"></div>
 	</div>
-    </footer>
-    
-</body>
+
+
+	<!--  フッター部分　 -->
+	<footer class="footer">
+	    <div class="small">
+		<div id="links">
+		    <%= link_to "ホーム", "/top", :style=>"color:white;" %>
+		</div>
+		<div id="links">
+		    <%= link_to "このサイトについて", "/about", :style=>"color:white;" %>
+		</div>
+		<div id="links">
+		    <%= link_to "お問い合わせ", "/inqury", :style=>"color:white;" %>
+		</div>
+	    </div>
+	</footer>
+	
+    </body>
 </html>

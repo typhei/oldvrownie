@@ -2,95 +2,52 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /* 共通レイアウト ================================ */
+
 html {
   height:100%;
 }
 
 body {
   height:100%;
+  width:100%;
   margin:0;
   color: #364a5f;
-  background-color: #f5f5f5;
-}
-
-ul, li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #1f89e2;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #1b7ccd;
+  background-color:#f8fbf8;
 }
 
 .container {
-  margin:55px auto 0;
-  width:1050px;
+  margin:55px 0 auto;
   height:auto;
-  background-color:white;
-  padding:5px;
   padding-top:40px;
   position:relative;
 }
 
-
-
-/* フォント ================================ */
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
-}
-
-h1 {
-  font-size: 32px;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-}
-
-h2 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 40px;
-    }
-
 /* ヘッダー ================================ */
 .navbar {
-  height: 70px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  top: 0;
-  right: 0;
-  left: 0;
-  position: fixed;
+  height: 65px;
+  width:100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  top:0px;
   z-index:100;
+  border-bottom:solid;
+  position:absolute;
+  overflow:hidden;
 }
 
 #logo {
-  height:70px;
-  font-size: 45px;
-  left:43%;
-  color: #fff;
-  position:absolute;
-  letter-spacing: -1px;
-  font-weight: bold;
+  height:60px;
+  margin:0 auto;
+  left:38%;
+  position:relative;
 }
-
 
 /* フッター ================================ */
 footer {
-//  margin-top: 100px;
-  //  padding-top: 5px;
   height:70px;
   border-top: 1px solid #eaeaea;
   color: white;
   background-color: rgba(34, 49, 52, 0.9);
+  box-sizing:border-box;
 }
 
 footer .small {
@@ -106,42 +63,50 @@ footer .small {
 }
 
 /* 独自 ================================*/
-.toparticlewrapper{
-  width:700px;
-  height:300px;
-  position:relative;
+.topwrapper{
+  width:1200px;
+  height:380px;
   margin:0 auto;
+  position:relative;
+}
+
+.toparticlewrapper{
+  width:580px;
+  height:380px;
+  position:relative;
   overflow:hidden;
+  float:left;
 }
 
 .titlelayer{
-  width:700px;
+  width:580px;
   height:100px;
   position:absolute;
   bottom:0;
   background-color:rgba(34, 49, 52, 0.9);
   opacity:0.8;
-  font-size:25px;
+  font-size:22px;
   font-weight:bold;
 }
 
 .blockwrapper {
-  width:700px;
-  height: 210px;
+  width:1200px;
+  height: 310px;
   margin:10px auto;
 }
 
 
 #imagewrapper{
-  width:330px;
-  height:200px;
+  width:390px;
+  height:300px;
+  float:left;
   position:relative;
-  overflow:hidden;
+  overflow:visible;
 }
 
 .subtitlelayer{
-  width:330px;
-  height:65px;
+  width:390px;
+  height:100px;
   position:absolute;
   bottom:0;
   background-color:rgba(34, 49, 52, 0.9);
@@ -176,7 +141,6 @@ footer .small {
 }
 
 #inner{
-  width:100%;
   height:100%;
   padding-top:4px;
   display:inline-block;
@@ -185,6 +149,7 @@ footer .small {
   font-size:20px;
 }
 
+
 /* googleフォーム*/
 iframe{
 }
@@ -192,4 +157,10 @@ iframe{
 .clear {
   clear: both;
   height: 60px;
+}
+
+.searchform{
+  float:right;
+  margin-top:15px;
+  position:relative;
 }

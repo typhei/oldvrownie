@@ -10,6 +10,8 @@ path = "../app/assets/images/"
 imagetype = ["png", "gif", "jpg", "jpeg"]
 NUM = 10
 
+
+#####画像のダウンロード#####
 def download_img(src,maxsize,current):
     try:
         #URLから画像を取得

@@ -1,0 +1,6 @@
+#coding:utf-8
+
+
+for i in 0..0
+  p "foo"
+end
