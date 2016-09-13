@@ -1,0 +1,19 @@
+# -*- coding:utf-8 -*-
+import sqlite3
+
+
+###############################
+##########メイン関数
+###############################
+def main():
+    
+    #railsのデータベース書き込み用ファイル
+    wt = open("../db/seeds.rb", "w")
+    wt.write("#coding: utf-8\n")
+
+
+    c = sqlite3.connect("../db/development.sqlite3").cursor()
+    db_data = list(c.execute("select * from pages;"))
+    #db_data = [x[0] for x in db_data]
+    for i in db_data:
+        print i

@@ -11,6 +11,12 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+group :development, :test do
+  gem 'rspec-rails', '2.13.1'
+end
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,4 +56,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
