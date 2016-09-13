@@ -3,7 +3,7 @@
 @page.number = 30
 @page.title = "バーチャルエロの最先端「アダルトVRエキスポ2016」潜入レポ｜ニフティニュース"
 @page.url = "https://news.nifty.com/article/technology/mobile/12125-291289/"
-@page.image = "/assets/thumb-12125-291289-technology.jpg"
+@page.image = "thumb-12125-291289-technology.jpg"
 @page.body = "先日行われた「アダルトVRエキスポ2016」の模様をお届けしたいと思う。筆者の友人であり、アダルト業界においては先輩であるみくら天狗氏の案内で、最先端のアダルトVR（バーチャルリアリティ）を体験してき…"
 @page.site_name = "ニフティニュース"
 @page.date = "2016/09/13"
