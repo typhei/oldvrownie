@@ -71,12 +71,16 @@ def main():
                         description = m.get("content")
                     elif m.get("property") == "og:image":
                         image = m.get("content")
+                    elif m.get("property") == "og:type":
+                        types = m.get("content")
 
 
             #ページタイトルでフィルタ
             if title == "" or description == "" or image == "":
                 continue
             if u"漫画" in title or u"同人" in title:
+                continue
+            if types != "article":
                 continue
 
             #テキストのみ抽出

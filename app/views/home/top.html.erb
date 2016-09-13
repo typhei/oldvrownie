@@ -1,48 +1,130 @@
 <!-- メインコンテンツ　トップ記事 -->
+<% if @toparticle1.title.length > 48 then %>
+    <% maintitle1 = @toparticle1.title[0,47] + ". . . " %>
+<% else %>
+    <% maintitle1 = @toparticle1.title %>
+<% end %>
+
+<% if @toparticle2.title.length > 48 then %>
+    <% maintitle2 = @toparticle2.title[0,47] + ". . . " %>
+<% else %>
+    <% maintitle2 = @toparticle2.title %>
+<% end %>
+
 <div class="topwrapper">
     <div class="toparticlewrapper" style="float:left;">
 	<%= link_to image_tag(@toparticle1.image, {:size=>"580x380", :alt=>"image"}), @toparticle1.url, :target=>["_blank"]%>
 	<div class="titlelayer">
-	    <%= link_to @toparticle1.title, @toparticle1.url, :target=>["_blank"], :style=>"color:white; text-decoration:none;"%>
+	    <div class="title">
+		<%= link_to maintitle1, @toparticle1.url, :target=>["_blank"], :style=>"color:white; text-decoration:none"%>
+	    </div>
 	</div>
     </div>
     <div class="toparticlewrapper" style="float:right;">
 	<%= link_to image_tag(@toparticle2.image, {:size=>"580x380", :alt=>"image"}), @toparticle2.url, :target=>["_blank"]%>
 	<div class="titlelayer">
-	    <%= link_to @toparticle2.title, @toparticle2.url, :target=>["_blank"], :style=>"color:white; text-decoration:none;"%>
+	    <div class="title">
+		<%= link_to maintitle2, @toparticle2.url, :target=>["_blank"], :style=>"color:white; text-decoration:none;"%>
+	    </div>
 	</div>
     </div>
 </div>
 
+
 <!-- メインコンテンツ　その他の記事 -->
+
 <% @page.each_slice(3) do |arr1, arr2, arr3| %>
+    
     <div class="blockwrapper">
 	<% if !arr1.nil? then %>
+	    
+	    <% if arr1.title.length > 39 then %>
+		<% subt1 = arr1.title[0,38] + ". . . " %>
+	    <% else %>
+		<% subt1 = arr1.title %>
+	    <% end %>
+	    <% if arr1.site_name.bytesize > 30 then %>
+		<% st1 = arr1.site_name[0,9] + "..." %>
+	    <% else %>
+		<% st1 = arr1.site_name %>
+	    <% end %>
+	    
 	    <div id="imagewrapper" style="margin-right:15px;">
 		<%= link_to image_tag(arr1.image, {:border=>"0", :size=>"390x300",:alt=>"image"}), arr1.url, :target=>["_blank"]%>
 		<div class="subtitlelayer">
-		    <h3><%= link_to arr1.title, arr1.url ,:target=>["_blank"], :style=>"color:white; text-decoration:none;" %></h3>
+		    <div class="subtitle">
+			<%= link_to subt1, arr1.url ,:target=>["_blank"], :style=>"color:white; text-decoration:none;" %>
+		    </div>
+		</div>
+		<div class="datelayer">
+		    <div class="date">
+			<%= arr1.date %>
+		    </div>
+		    <div class="sites">
+			<%= st1 %>
+		    </div>
 		</div>
 	    </div>
 	<% end %>
 	<% if !arr2.nil? then %>
+	    <% if arr2.title.length > 39 then %>
+		<% subt2 = arr2.title[0,38] + ". . . " %>
+	    <% else %>
+		<% subt2 = arr2.title %>
+	    <% end %>
+	    <% if arr2.site_name.bytesize > 30 then %>
+		<% st2 = arr2.site_name[0,9] + "..." %>
+	    <% else %>
+		<% st2 = arr2.site_name %>
+	    <% end %>
+	    
 	    <div id="imagewrapper" style="margin-right:15px;">
 		<%= link_to image_tag(arr2.image, {:border=>"0", :size=>"390x300",:alt=>"image"}), arr2.url, :target=>["_blank"]%>
 		<div class="subtitlelayer">
-		    <h3><%= link_to arr2.title, arr2.url ,:target=>["_blank"],:style=>"color:white; text-decoration:none;" %></h3>
+		    <div class="subtitle">
+			<%= link_to subt2, arr2.url ,:target=>["_blank"],:style=>"color:white; text-decoration:none;" %>
+		    </div>
+		</div>
+		<div class="datelayer">
+		    <div class="date">
+			<%= arr2.date %>
+		    </div>
+		    <div class="sites">
+			<%= st2 %>
+		    </div>
 		</div>
 	    </div>
 	<% end %>
 	<% if !arr3.nil? then %>
+	    <% if arr3.title.length > 39 then %>
+		<% subt3 = arr3.title[0,38] + ". . . " %>
+	    <% else %>
+		<% subt3 = arr3.title %>
+	    <% end %>
+	    <% if arr3.site_name.bytesize > 30 then %>
+		<% st3 = arr3.site_name[0,9] + "..." %>
+	    <% else %>
+		<% st3 = arr3.site_name %>
+	    <% end %>
+	    
 	    <div id="imagewrapper">
 		<%= link_to image_tag(arr3.image, {:border=>"0", :size=>"390x300",:alt=>"image"}), arr3.url, :target=>["_blank"]%>
 		<div class="subtitlelayer">
-		    <h3><%= link_to arr3.title, arr3.url ,:target=>["_blank"],:style=>"color:white; text-decoration:none;" %></h3>
+		    <div class="subtitle">
+			<%= link_to subt3, arr3.url ,:target=>["_blank"],:style=>"color:white; text-decoration:none;" %>
+		    </div>
+		</div>
+		<div class="datelayer">
+		    <div class="date">
+			<%= arr3.date %>
+		    </div>
+		    <div class="sites">
+			<%= st3 %>
+		    </div>
 		</div>
 	    </div>
 	<% end %>
     </div>
-    <Hr width="1020px" color="#cfcfcf">
 <% end %>
 
 

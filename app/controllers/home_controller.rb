@@ -12,13 +12,13 @@ class HomeController < ApplicationController
     end
     i -= 2
     if !@start.nil? then
-      i -= (@start-1)*10
+      i -= (@start-1)*21
     end
     while(!(Page.find_by(:number => i).nil?)) do
       @page.push(Page.find_by(:number => i))
       i-=1
       count += 1
-      if count > 15 then
+      if count > 21 then
         break
       end
     end

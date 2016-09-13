@@ -11,6 +11,7 @@ API_KEY = "AIzaSyDWj0oLZ9E3FCz52wuP9ORo1JDTe2T96gw"
 CSE_KEY = "017109665700922583163:vg4jfedf4li"
 QUERIES = ["アダルト", "エロアニメ", "ポルノ", "巨乳", "アダルトビデオ", "セックス", "エロゲ", "美女", "美少女", "オナニー"]
 Number = 0
+Resnum = 10
 file = File.open("urls", "w")
 uArray = []
 
@@ -26,13 +27,14 @@ QUERIES.each do |q|
     puts "start:" + start.to_s
 
     #APIリクエスト
-    api_url = URI.parse("https://www.googleapis.com/customsearch/v1?key=#{API_KEY}&cx=#{CSE_KEY}&q=#{query}&num=#{Number}&start=#{start}&dateRestrict=d1")
+    api_url = URI.parse("https://www.googleapis.com/customsearch/v1?key=#{API_KEY}&cx=#{CSE_KEY}&q=#{query}&num=#{Resnum}&start=#{start}&dateRestrict=w1")
     https = Net::HTTP.new(api_url.host, api_url.port)
     https.use_ssl = true
     res = https.start{
       https.get(api_url.request_uri)
     }
 
+    p api_url
     #レスポンス成功
     if res.code == "200"
       puts "code:200"
@@ -57,6 +59,7 @@ QUERIES.each do |q|
     #レスポンス失敗
     else
       puts "#{res.code} #{res.message}"
+      sleep(10)
     end
     
   end
