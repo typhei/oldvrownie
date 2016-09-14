@@ -8,7 +8,7 @@ import math
 import sqlite3
 import datetime
 
-path = "../app/assets/images/"
+path = "../public/images/"
 imagetype = ["png", "gif", "jpg", "jpeg"]
 NUM = 10
 
@@ -183,7 +183,7 @@ def main():
         wt.write("@page.number = " + str(maxnum) + "\n")
         wt.write(v["title"])
         wt.write("@page.url = \"" + v["url"] + "\"\n")
-        wt.write("@page.image = \"/assets/" + v["image"] + "\"\n")
+        wt.write("@page.image = \"" + v["image"] + "\"\n")
         wt.write("@page.body = \"" + v["description"].encode("utf-8") + "\"\n")
         wt.write("@page.site_name = \"" + v["sitename"].encode("utf-8") + "\"\n")
         wt.write("@page.date = \"" + v["date"].encode("utf-8") + "\"\n")

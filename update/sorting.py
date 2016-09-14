@@ -45,8 +45,9 @@ def main():
     
     for u in f:
         try:
+            print u
             url = u
-            title, description, image  = "", "", ""
+            title, description, image,types  = "", "", "",""
             
             if u"http" not in url:
                 url = u"http://" + url
@@ -63,6 +64,7 @@ def main():
 
             #OGP設定取得
             meta = bfs.find_all("meta")
+
             for m in meta:
                 if m.get("property") is not None:
                     if m.get("property") == "og:title":
@@ -74,6 +76,9 @@ def main():
                     elif m.get("property") == "og:type":
                         types = m.get("content")
 
+
+            if title == "" or description == "" or image == "" or types == "":
+                continue
 
             #ページタイトルでフィルタ
             if title == "" or description == "" or image == "":
@@ -100,6 +105,7 @@ def main():
             #termaverage[url].append(numlinks)
             #termaverage[url].append(numofimg)
 
+            print "count"
             #対象文字列カウント
             for i in Terms:
                 if i in soup:
@@ -113,6 +119,7 @@ def main():
             if u"VR" in title:
                 termaverage[url] = [x*2 for x in termaverage[url]]
 
+            print "end?"
                 
         #エラー処理
         except Exception as e:
