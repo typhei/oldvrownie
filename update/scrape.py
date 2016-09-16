@@ -183,7 +183,7 @@ def main():
         wt.write("@page.number = " + str(maxnum) + "\n")
         wt.write(v["title"])
         wt.write("@page.url = \"" + v["url"] + "\"\n")
-        wt.write("@page.image = \"" + v["image"] + "\"\n")
+        wt.write("@page.image = \"/images/" + v["image"] + "\"\n")
         wt.write("@page.body = \"" + v["description"].encode("utf-8") + "\"\n")
         wt.write("@page.site_name = \"" + v["sitename"].encode("utf-8") + "\"\n")
         wt.write("@page.date = \"" + v["date"].encode("utf-8") + "\"\n")
