@@ -26,3 +26,11 @@ fi
 cd ../update
 python scrape.py
 rake db:seed
+
+#heroku
+cd ..
+git add .
+comment="update"
+git commit -m $comment$d
+git push heroku master
+heroku run rake db:seed

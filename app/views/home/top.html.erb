@@ -4,11 +4,21 @@
 <% else %>
     <% maintitle1 = @toparticle1.title %>
 <% end %>
+<% if @toparticle1.site_name.bytesize > 25 then %>
+    <% top1 = @toparticle1.site_name[0,9] + "..." %>
+<% else %>
+    <% top1 = @toparticle1.site_name %>
+<% end %>
 
 <% if @toparticle2.title.length > 48 then %>
     <% maintitle2 = @toparticle2.title[0,47] + ". . . " %>
 <% else %>
     <% maintitle2 = @toparticle2.title %>
+<% end %>
+<% if @toparticle2.site_name.bytesize > 25 then %>
+    <% top2 = @toparticle2.site_name[0,9] + "..." %>
+<% else %>
+    <% top2 = @toparticle2.site_name %>
 <% end %>
 
 <div class="topwrapper">
@@ -19,12 +29,28 @@
 		<%= link_to maintitle1, @toparticle1.url, :target=>["_blank"], :style=>"color:white; text-decoration:none"%>
 	    </div>
 	</div>
+	<div class="topdatelayer">
+	    <div class="topdate">
+		<%= @toparticle1.date %>
+	    </div>
+	    <div class="topsites">
+		<%= top1 %>
+	    </div>
+	</div>
     </div>
     <div class="toparticlewrapper" style="float:right;">
 	<%= link_to image_tag(@toparticle2.image, {:size=>"580x380", :alt=>"image"}), @toparticle2.url, :target=>["_blank"]%>
 	<div class="titlelayer">
 	    <div class="title">
 		<%= link_to maintitle2, @toparticle2.url, :target=>["_blank"], :style=>"color:white; text-decoration:none;"%>
+	    </div>
+	</div>
+	<div class="topdatelayer">
+	    <div class="topdate">
+		<%= @toparticle2.date %>
+	    </div>
+	    <div class="topsites">
+		<%= top2 %>
 	    </div>
 	</div>
     </div>
@@ -43,7 +69,7 @@
 	    <% else %>
 		<% subt1 = arr1.title %>
 	    <% end %>
-	    <% if arr1.site_name.bytesize > 30 then %>
+	    <% if arr1.site_name.bytesize > 25 then %>
 		<% st1 = arr1.site_name[0,9] + "..." %>
 	    <% else %>
 		<% st1 = arr1.site_name %>
@@ -72,7 +98,7 @@
 	    <% else %>
 		<% subt2 = arr2.title %>
 	    <% end %>
-	    <% if arr2.site_name.bytesize > 30 then %>
+	    <% if arr2.site_name.bytesize > 25 then %>
 		<% st2 = arr2.site_name[0,9] + "..." %>
 	    <% else %>
 		<% st2 = arr2.site_name %>
@@ -101,7 +127,7 @@
 	    <% else %>
 		<% subt3 = arr3.title %>
 	    <% end %>
-	    <% if arr3.site_name.bytesize > 30 then %>
+	    <% if arr3.site_name.bytesize > 25 then %>
 		<% st3 = arr3.site_name[0,9] + "..." %>
 	    <% else %>
 		<% st3 = arr3.site_name %>
