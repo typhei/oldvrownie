@@ -37,4 +37,7 @@ class HomeController < ApplicationController
 
   def inqury
   end
+  
+  def video
+  end
 end

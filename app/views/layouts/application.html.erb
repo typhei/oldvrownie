@@ -16,7 +16,39 @@
 
 	<!--  ヘッダー部分　 -->
 	<header class="navbar">
-	    <div id="logo"><%= link_to image_tag("/logo.png", {:size=>"450x90", :alt=>"logo"}), "/top" %></div>
+	    <div id="logo">
+		<%= link_to image_tag("/logo.png", {:size=>"450x90", :alt=>"logo"}), "/top" %>
+	    </div>
+	    <!-- admax -->
+	    <div id="ad-head">
+		<script src="http://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3"></script>
+	    </div>
+	    <!--
+	    <div class="menu">
+		<div class="menu-box">
+		    <div class="menulink">
+			<%= link_to "ホーム", "/top", :style=>"text-decoration:none; color:white; font-weight:bold;"%>
+		    </div>
+		</div>
+		<div class="menu-box">
+		    <div class="menulink">
+			<%= link_to "ニュース", "/top", :style=>"text-decoration:none; color:white; font-weight:bold;"%>
+		    </div>
+		</div>
+		<div class="menu-box">
+		    <div class="menulink">
+			<%= link_to "動画", "/video", :style=>"text-decoration:none; color:white; font-weight:bold;"%>
+		    </div>
+		</div>
+		<div class="menu-box">
+		    <div class="menulink">
+			<%= link_to "About", "/about", :style=>"text-decoration:none; color:white; font-weight:bold;"%>
+		    </div>
+		</div>
+		<div class="menu-box">
+		</div>
+	    </div>
+	    -->
 	</header>
 
 
@@ -26,7 +58,12 @@
 	    <div class="clear"></div>
 	</div>
 
-
+	<div id="adwrapper">
+	    <div id="ad-foot">
+		<script src="http://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3"></script>
+	    </div>
+	</div>
+	
 	<!--  フッター部分　 -->
 	<footer class="footer">
 	    <div class="small">
