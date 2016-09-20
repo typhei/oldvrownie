@@ -130,9 +130,13 @@ def main():
         geometric_ave = pow(reduce(lambda x, y:x*y, v), (1.0/len(v)))
         ranking[k] = geometric_ave
 
+    writeNum = 0
     for k, v in sorted(ranking.items(), key=lambda x:x[1],reverse=True):
+        if writeNum > 10:
+            break
         print k,v
         wt.write(k)
+        writeNum += 1
         
     f.close()
     wt.close()
