@@ -9,7 +9,7 @@ import numpy as np
 
 
         
-Terms = [u"アダルト", u"エロアニメ", u"ポルノ", u"巨乳", u"アダルトビデオ", u"セックス", u"エロゲ", u"美女", u"美少女", u"オナニー", u"VR", u"漫画", u"同人"]
+Terms = [u"アダルト", u"エロアニメ", u"ポルノ", u"巨乳", u"アダルトビデオ", u"セックス", u"エロゲ", u"美女", u"美少女", u"オナニー", u"おっぱい",u"エッチ"  u"VR", u"漫画", u"同人"]
 
 
 #ページのエンコーディングチェック
@@ -77,12 +77,9 @@ def main():
                         types = m.get("content")
 
 
-            if title == "" or description == "" or image == "" or types == "":
+            if title == "" or image == "" or types == "":
                 continue
 
-            #ページタイトルでフィルタ
-            if title == "" or description == "" or image == "":
-                continue
             if u"漫画" in title or u"同人" in title:
                 continue
             if types != "article":

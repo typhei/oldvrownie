@@ -9,7 +9,7 @@ require "cgi"
 #パラメータ準備
 API_KEY = "AIzaSyDWj0oLZ9E3FCz52wuP9ORo1JDTe2T96gw"
 CSE_KEY = "017109665700922583163:vg4jfedf4li"
-QUERIES = ["アダルト", "エロアニメ", "ポルノ", "巨乳", "アダルトビデオ", "セックス", "エロゲ", "美女", "美少女", "オナニー"]
+QUERIES = ["アダルト", "エロアニメ", "ポルノ", "巨乳", "アダルトビデオ", "セックス", "エロゲ", "美女", "美少女", "オナニー","おっぱい", "エッチ"]
 Number = 0
 Resnum = 10
 file = File.open("urls", "w")
