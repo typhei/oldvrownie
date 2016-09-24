@@ -23,8 +23,16 @@
 	    <div id="logo">
 		<%= link_to image_tag("/logo.png", {:size=>"450x90", :alt=>"logo"}), "/top" %>
 	    </div>
-	    <div id="ad-head">
-		<%= javascript_include_tag "https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3" %>
+	    <div id="snswrapper">
+		<div class="snslogo">
+		    <%= image_tag("/twitterlogo.png", {:size=>"35x35", :alt=>"twitlogo"})%>
+		</div>
+		<div class="snslogo">
+		    <%= image_tag("/fblogo.png", {:size=>"35x35", :alt=>"twitlogo"})%>
+		</div>
+		<div class="snslogo">
+		    <%= image_tag("/googlelogo.jpeg", {:size=>"35x35", :alt=>"twitlogo"})%>
+		</div>
 	    </div>
 	    <!--
 	    <div class="menu">
@@ -56,6 +64,12 @@
 
 
 	<!--  メインコンテンツ　 -->
+	<div id="adwrapper-top">
+	    <div id="ad-head">
+		<%= javascript_include_tag "https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3" %>
+	    </div>
+	</div>
+	
 	<div class="container">
 	    <%= yield %>
 	    <div class="clear"></div>
