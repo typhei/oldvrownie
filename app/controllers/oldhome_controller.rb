@@ -4,20 +4,21 @@ class HomeController < ApplicationController
     i = Page.maximum(:number)
     count = 1
     @page = []
-    #@toparticle1 = Page.find_by(:number => i)
-    #@toparticle2 = Page.find_by(:number => i-1)
+    @toparticle1 = Page.find_by(:number => i)
+    @toparticle2 = Page.find_by(:number => i-1)
     @start = params[:start].to_i
     if @start < 1 then
       @start = 1
     end
+    i -= 2
     if !@start.nil? then
-      i -= (@start-1)*40
+      i -= (@start-1)*21
     end
     while(!(Page.find_by(:number => i).nil?)) do
       @page.push(Page.find_by(:number => i))
       i-=1
       count += 1
-      if count > 40 then
+      if count > 21 then
         break
       end
     end
