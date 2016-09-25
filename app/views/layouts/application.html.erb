@@ -64,23 +64,26 @@
 
 
 	<!--  メインコンテンツ　 -->
-	<div id="adwrapper-top">
-	    <div id="ad-head">
-		<%= javascript_include_tag "https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3" %>
+	<% if @ad == 1 then %>
+	    <div id="adwrapper-top">
+		<div id="ad-head">
+		    <%= javascript_include_tag "https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3" %>
+		</div>
 	    </div>
-	</div>
+	<% end %>
 	
 	<div class="container">
 	    <%= yield %>
 	    <div class="clear"></div>
 	</div>
 
-	<div id="adwrapper">
-	    <div id="ad-foot">
-		<script src="https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3"></script>
+	<% if @ad == 1 then %>
+	    <div id="adwrapper">
+		<div id="ad-foot">
+		    <script src="https://adm.shinobi.jp/s/9b26b2475f9cae9f7cf83fbfd350cdf3"></script>
+		</div>
 	    </div>
-	</div>
-	
+	<% end %>
 	<!--  フッター部分　 -->
 	<footer class="footer">
 	    <div class="small">

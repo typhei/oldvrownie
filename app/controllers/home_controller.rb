@@ -1,6 +1,7 @@
 # coding: utf-8
 class HomeController < ApplicationController
   def top
+    @ad = 1
     i = Page.maximum(:number)
     count = 1
     @page = []
@@ -32,6 +33,7 @@ class HomeController < ApplicationController
   end
 
   def about
+    @ad = 1
   end
 
   def inqury
