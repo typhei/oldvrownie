@@ -1,22 +1,12 @@
 #coding: utf-8
 @page = Page.new
-@page.number = 90
-@page.title = "【朗報】VRのエロゲがヤバすぎるwwwww : VIPPER速報"
-@page.url = "http://vippers.jp/archives/8691939.html"
-@page.image = "/images/2ef5ef6e.jpg"
-@page.body = "1：風吹けば名無し＠＼(^o^)／ ： 2016/09/21(水)16:44:04.59 ID： rQTRCE/AM.netHTC Vive+カスタムメイド3D2を手にしたワイ pic.twitter.com/4jaC4k8erA— 水田ケンジ＠猛虎熊野と鈴谷さん委託中 (@suidengetsu) 2016年9月20日2：風吹けば名無し＠＼(^o^)／ ： 2016/09"
-@page.site_name = "VIPPER速報"
-@page.date = "2016/09/25"
-@page.save
-
-@page = Page.new
 @page.number = 89
-@page.title = "【悲報】VR空間でおっぱいを揉まれまくった女の子が壊れるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ : VIPPER速報"
-@page.url = "http://vippers.jp/archives/8689237.html"
-@page.image = "/images/f5216b75-s.jpg"
-@page.body = "1：風吹けば名無し＠＼(^o^)／ ： 2016/09/17(土)20:27:33.91 ID： 9WHBK4fn0.net   2：風吹けば名無し＠＼(^o^)／ ： 2016/09/17(土)20:27:54.22 ID： ecM3yn0C0.net 草 4：風吹けば名無し＠＼(^o^)／ ： 2016/09/17(土)20:28:05.95 ID： p4x9sIwv0.net どれだけの"
-@page.site_name = "VIPPER速報"
-@page.date = "2016/09/25"
+@page.title = "アダルト配信サイト「HBOX」でアダルトVR動画配信開始！スマホでバーチャルエロを体験！！"
+@page.url = "http://protosketch.co/archives/adult/1940"
+@page.image = "/images/hbo.jpg"
+@page.body = ""
+@page.site_name = "VR通信｜ゲーム、ニュース、レビュー、価格比較はここで！日本最大級のVR(バーチャルリアリティー)情報サイト"
+@page.date = "2016/09/27"
 @page.save
 
 @page = Page.new
@@ -26,6 +16,6 @@
 @page.image = "/images/00a_ogp.jpg"
 @page.body = "ついに発売したイリュージョンのVR対応ゲーム「ハニーセレクト」。キーひとつでVRアダルトが楽しめるゲーム体験をレビュー。"
 @page.site_name = "ASCII.jp"
-@page.date = "2016/09/25"
+@page.date = "2016/09/27"
 @page.save
 
